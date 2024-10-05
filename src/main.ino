@@ -10,8 +10,8 @@
 Adafruit_NeoPixel NeoPixel(NUM_PIXELS,RGB_PIN, NEO_GRB + NEO_KHZ800);
 uint32_t randomColor = NeoPixel.Color(random(256), random(256), random(256));
 
-const char* ssid = "TP-Link_3330"; //Enter SSID
-const char* password = "raikar@123"; //Enter Password
+const char* ssid = "******"; //Enter SSID
+const char* password = "******"; //Enter Password
 
 using namespace websockets;
 WebsocketsServer server;
